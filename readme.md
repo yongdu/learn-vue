@@ -36,3 +36,24 @@
 <button v-bind:title="btnTitle">Hover over me</button>
 <button :title="btnTitle">Hover over me</button>
 ```
+
+5 `component` is not linked to any single vue instance. so use ´data()´ to return object.
+```javascript
+
+Vue.component('task',{
+    template: '<li><slot></slot></li>'
+
+    data() {
+        return {
+            message:'FooBar',
+        }
+    }
+});
+
+new Vue({
+    el: '#root',
+    data: {
+        message: "Hi",
+    }
+});
+```
