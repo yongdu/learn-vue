@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>vue-componet</title>
+    <link rel= "stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <style type="text/css"> body {padding-top: 40px}</style>
+  </head>
+  <body>
+      <div id="root" class="container">
+          <modal>
+              <template slot="header">
+                  This is a title
+              </template>
+  
+              Jag vill leva, Jag vill leva. Jag vill leva Jag vill leva Jag vill levaJag vill 
+  
+              <template slot="footer">
+                  <a class="button is-primary">Save changes</a>
+                  <a class="button">Cancel</a>
+                  <a class="button">Lol</a>
+              </template>
+          </modal>
+      </div>
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src = "nameslot.js"></script>
+  
+  </body>
+</html>
