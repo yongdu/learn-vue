@@ -3,6 +3,9 @@
     <message>Hello There!</message>
     <message>Hello Here!</message>
     <message>Hello Alla!</message>
+
+    <counter></counter>
+
   </div>
 </template>
 

@@ -3,7 +3,7 @@
         <h2>The count is : {{count}}</h2>
 
         <p> 
-            <button @click="count +=1">
+            <button @click="count +=10">
                 Increment
             </button>
         </p>
@@ -13,7 +13,7 @@
 <script>
 export default {
     data(){
-        return {count: 10}
+        return {count: 10};
     }
 }
 </script>
