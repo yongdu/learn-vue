@@ -14,6 +14,7 @@
         <!-->once the child return a event with name "appied", then parent triggers function onCouponApplied().
             this is limited to only parent and child communication <-->
         <coupon @applied="onCouponApplied"></coupon>
+        <customcoupon v-model="coupon"></customcoupon>
 
 
         <h1 v-if='couponApplied'>you use a coupon!!</h1>
@@ -21,5 +22,6 @@
 
     <script src="https://unpkg.com/vue@2.1.3/dist/vue.js"></script>
     <script src="communication.js"></script>
+    <script src="customInput.js"></script>
 </body>
 </html>
